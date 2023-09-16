@@ -1,14 +1,16 @@
 *{
     padding: 0;
     margin:0;
+    
 }
 
-body{
+ html body{
     background-image: url(test-image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
+    height: 100%;
+    width: 100%;
 }
 
 header{
@@ -167,7 +169,16 @@ aside{
     padding-left: 120px;
 }
 
-@media (max-width: 768px){
-
+@media only screen and (max-width: 768px){
+   
+    html body{
+        background-image: url("/pexels-irina-iriser-916344.jpg");
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100%;
+        width: 100%;
+    }
+    
 }
 
