@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+body{
+    background-image: url(test-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+header{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+}
+
+.loveGallery{
+    color: olivedrab;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.loveGallery:hover{
+    background-color: olivedrab;
+    color: beige;
+    border-radius: 20px;
+}
+
+.eventVendor {
+    color: olivedrab;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.eventVendor:hover {
+    background-color: olivedrab;
+    color: beige;
+    border-radius: 20px;
+}
+
+.BA{
+    color: rgb(247, 126, 12);
+    font-weight: bolder;
+    font-size: 60px;
+   
+}
+
+.skinginlove{
+    font-weight: bolder;
+    font-size: 35px;
+    padding-top: 25px;
+    color: rgb(184, 115, 51);
+    font-style: italic;
+}
+
+aside{
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+#Anuoluwapo{
+    color: rgb(255, 126, 5);
+    font-size: 40px;
+}
+
+#Blessing{
+    color: rgb(255, 126, 5);
+    font-size: 40px;
+    padding-left: 20%;
+}
+
+.Blessing{
+    padding-top: 20px;
+}
+
+.and{
+    padding-top: 30px;
+    padding-right: 150lvh;
+    padding-left: 25vh;
+}
+
+#and{
+    padding-left: 30%;
+    padding-right: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    background-color: beige;
+    border-radius: 30px;
+}
+
+.tie{
+    padding-top: 30px;
+    padding-right: 125lvh;
+    padding-left: 10vh;
+}
+
+
+/* #tie{
+    padding-left: 10%;
+    font-weight: bolder;
+    font-size: 25px;
+    border-radius: 30%;
+    background-color: rgb(245, 209, 3);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+} */
+
+#tie{
+    animation: pulsate 2s infinite;
+    font-size: 35px;
+}
+
+@keyframes pulsate {
+    0% {
+        opacity: 0.5;
+    }
+
+    50% {
+        opacity: 1;
+        color: white;
+        background-color: olivedrab;
+        border-radius: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        padding-left: 10%;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+
+.date{
+  padding-left: 60px;
+  padding-top: 30px;
+  font-weight: bolder;
+}
+
+.countdown{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 120px;
+}
+
+@media (max-width: 768px){
+
+}
+
